@@ -46,7 +46,7 @@ setup(
     author_email="christian@python.org",
     maintainer="Christian Heimes",
     maintainer_email="christian@python.org",
-    url="https://bitbucket.org/tiran/wincertstore",
+    url="https://github.com/tiran/wincertstore",
     download_url="http://pypi.python.org/pypi/wincertstore",
     keywords="windows cert ssl ca crl",
     platforms="Windows",
