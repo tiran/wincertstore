@@ -2,14 +2,14 @@
 wincertstore
 ============
 
+.. warning::
+
+   The package is deprecated. Since Python 2.7.9
+   ``ssl.create_default_context()`` automatically loads certificates from
+   Windows' cert store.
+
 wincertstore provides an interface to access Windows' CA and CRL certificates.
 It uses ctypes and Windows's sytem cert store API through crypt32.dll.
-
-.. warning:: Security Fix
-   
-   wincertstore 0.1 used to return *all* certificates although some are *not*
-   suitable to verify TLS/SSL server certificates. wincertstore 0.2 only
-   returns certificates for *SERVER_AUTH* enhanced key usage by default.
 
 
 Example
