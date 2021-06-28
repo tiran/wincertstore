@@ -53,7 +53,6 @@ setup(
     license="PSFL",
     description="Python module to extract CA and CRL certs from Windows' cert store (ctypes based).",
     long_description="\n".join(long_description),
-    python_requires='>=2.7,!=3.0.*,!=3.1.*,<3.4.*',
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
