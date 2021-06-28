@@ -39,7 +39,7 @@ long_description = [_read("README.txt"), _read("CHANGES.txt")]
 
 setup(
     name="wincertstore",
-    version="0.2",
+    version="0.2.1",
     cmdclass={"test": PyTest},
     py_modules=["wincertstore"],
     author="Christian Heimes",
@@ -53,6 +53,7 @@ setup(
     license="PSFL",
     description="Python module to extract CA and CRL certs from Windows' cert store (ctypes based).",
     long_description="\n".join(long_description),
+    python_requires='>=2.7,!=3.0.*,!=3.1.*,<3.4.*',
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -61,15 +62,7 @@ setup(
         "Operating System :: Microsoft :: Windows",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.3",
-        "Programming Language :: Python :: 2.4",
-        "Programming Language :: Python :: 2.5",
-        "Programming Language :: Python :: 2.6",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.1",
-        "Programming Language :: Python :: 3.2",
-        "Programming Language :: Python :: 3.3",
-        "Programming Language :: Python :: 3.4",
     ],
 )
